@@ -13,6 +13,7 @@ public class SimpleBean {
 	
 	public void printInfo() {
 		System.out.println( "I'm simple bean!");
+		System.out.println( "and I'm working for you!");
 	}
 
 }
