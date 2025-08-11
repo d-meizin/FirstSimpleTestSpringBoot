@@ -5,3 +5,7 @@
 1754819949344:help
 1754819997631:order-coffee coffeeType tl
 1754820053110:order-coffee --coffeeType americano
+1754911596778:help
+1754911697936:zakaz --t latte
+1754911727364:zakaz --t cappuccino
+1754911830644:zakaz --t americano
