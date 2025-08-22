@@ -1,12 +1,22 @@
 package meizin.ltd.FirstSimpleTestSpringBoot.bean;
 
 import org.springframework.stereotype.Component;
-import meizin.ltd.FirstSimpleTestSpringBoot.model.CoffeeOrder;
+
+import meizin.ltd.FirstSimpleTestSpringBoot.model.WantedCoffee;
+
+//import jakarta.annotation.PostConstruct;
+
 
 @Component
 public class CoffeeShop {
-	public String processOrder(CoffeeOrder coffeeOrder) {
-		return "Заказан кофе: " + coffeeOrder.coffeeType();
+/*	
+	@PostConstruct
+	public void postConstruct() {
+		System.out.println( "Post construct from CoffeeShop");
+	}
+*/	
+	public String showOrder(WantedCoffee wantedCofee) {
+		return "Заказан кофе: " + wantedCofee.coffeeType();
 		
 	}
 

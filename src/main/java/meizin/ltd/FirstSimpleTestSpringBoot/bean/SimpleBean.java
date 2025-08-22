@@ -1,8 +1,8 @@
 package meizin.ltd.FirstSimpleTestSpringBoot.bean;
 
-import org.springframework.stereotype.Component;
-import jakarta.annotation.PostConstruct;
-
+//import org.springframework.stereotype.Component;
+//import jakarta.annotation.PostConstruct;
+/*
 @Component
 public class SimpleBean {
 	
@@ -17,3 +17,4 @@ public class SimpleBean {
 	}
 
 }
+*/
